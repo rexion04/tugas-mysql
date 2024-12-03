@@ -1,0 +1,53 @@
+/* Background Image and Color */
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style Container Form */
+.login-container {
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFF8DC;
+}
+
+/* Style Input Fields */
+input[type='text'],
+input[type='password'] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style Submit Button */
+button[type='submit'] {
+    padding: 10px;
+    background-color:#007bff ;
+    color:white ;
+    border:none ;
+    cursor:pointer ;
+
+}
+
+/* Responsive Design */
+@media(max-width:600px){
+     .login-container{
+         width:90%;
+         margin:auto ;
+         
+      }
+      
+       input[type =' text '] , input [type =' password '] ,
+       button [type =' submit ']{
+
+
+           font-size :16 px;
+
+
+       }
+
+
+}
